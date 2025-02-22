@@ -1,4 +1,4 @@
-# Commands [![Version]( https://img.shields.io/badge/version-v1.0-blue )]( https://github.com/KennySusak/rbot/releases )
+# CS 1.6 - RBOT [![Version]( https://img.shields.io/badge/version-v1.0-blue )]( https://github.com/KennySusak/rbot/releases )
 
 ## **Command Settings**
 
