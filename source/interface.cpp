@@ -2542,7 +2542,7 @@ void ServerActivate(edict_t* pentEdictList, int edictCount, int clientMax)
 	g_botManager->InitQuota();
 
 
-	#ifdef __linux__
+	#if defined(__linux__) || defined(__linux) || defined(__gnu_linux__)
 	if (IsDedicatedServer()) {
 		ServerQueryHook_Init(GetServerQueryHook());
 	} else {
@@ -2571,7 +2571,7 @@ void ServerDeactivate(void)
 
 	secondTimer = 0.0f;
 
-	#ifdef __linux__
+	#if defined(__linux__) || defined(__linux) || defined(__gnu_linux__) 
 	if (IsDedicatedServer()) {
 		ServerQueryHook_Disable(GetServerQueryHook());
 	}

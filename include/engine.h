@@ -10,7 +10,7 @@
 #define __linux__ 1
 #endif
 
-#if defined __linux__
+#if defined(__linux__) || defined(__linux) || defined(__gnu_linux__)
 #define OFFSET_TEAM 119
 #else
 #define OFFSET_TEAM 114
@@ -25,7 +25,7 @@ typedef signed long int32;
 #ifdef _MSC_VER
 typedef signed __int64 int64;
 #endif
-#elif defined __linux__
+#elif defined(__linux__) || defined(__linux) || defined(__gnu_linux__)
 typedef long long int64;
 #endif
 
@@ -37,7 +37,7 @@ typedef unsigned long uint32;
 #ifdef _MSC_VER
 typedef unsigned __int64 uint64;
 #endif
-#elif defined __linux__
+#elif defined(__linux__) || defined(__linux) || defined(__gnu_linux__)
 typedef unsigned long long uint64;
 #endif
 
@@ -95,7 +95,7 @@ typedef unsigned int uint;
 #define __i386__   1
 #endif
 
-#elif __linux__
+#elif defined(__linux__) || defined(__linux) || defined(__gnu_linux__)
 typedef unsigned int DWORD;
 typedef unsigned short WORD;
 typedef void* HINSTANCE;
@@ -138,7 +138,7 @@ typedef void* HINSTANCE;
 // Can't use extern "C" when DLL exporting a global
 #define  DLL_GLOBAL_EXPORT   extern __declspec( dllexport )
 #define  DLL_GLOBAL_IMPORT   extern __declspec( dllimport )
-#elif defined __linux__
+#elif defined(__linux__) || defined(__linux) || defined(__gnu_linux__)
 
 // Used for dll exporting and importing
 #define  DLL_EXPORT   extern "C"
@@ -204,7 +204,7 @@ typedef void* HINSTANCE;
 // Alloca defined for this platform
 #define  stackalloc( _size ) _alloca( _size )
 #define  stackfree( _p )   0
-#elif __linux__
+#elif defined(__linux__) || defined(__linux) || defined(__gnu_linux__)
 // Alloca defined for this platform
 #define  stackalloc( _size ) alloca( _size )
 #define  stackfree( _p )   0

@@ -42,6 +42,8 @@ ConVar rbot_save_bot_names("rbot_save_bot_names", "0");
 
 ConVar rbot_realistic_playtime("rbot_realistic_playtime", "0"); // 0 - Off , 1 - On
 ConVar rbot_realistic_avg_amount("rbot_realistic_avg_amount", "5"); // AVG ~ RBOT
+ConVar rbot_realistic_stay_mintime("rbot_realistic_stay_mintime", "15"); // in seocnds
+ConVar rbot_realistic_stay_maxtime("rbot_realistic_stay_maxtime", "500"); // in seconds
 
 ConVar rbot_think_fps("rbot_think_fps", "20.0");
 
@@ -321,7 +323,7 @@ void BotControl::PlayTimeExecution(void)
 		}
 	}
 
-    m_randomJoinTime = AddTime(engine->RandomFloat(15.0, 300.0));
+    m_randomJoinTime = AddTime(engine->RandomFloat(rbot_realistic_stay_mintime.GetInt(), rbot_realistic_stay_maxtime.GetInt()));
 }
 
 void BotControl::Think(void)

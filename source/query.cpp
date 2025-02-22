@@ -265,6 +265,7 @@ static int GetValidPlayerCount(void)
             count++;
         }
     }
+
     return count;
 }
 

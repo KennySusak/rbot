@@ -2703,7 +2703,6 @@ bool Bot::ReactOnEnemy(void)
 			{
 				if (enemyDistance <= SquaredF(40.0f) || !HasNextPath()) {
 					m_isEnemyReachable = true;
-					printf("TRIGGGER TURNS FALSE LOL: %.2f", enemyDistance);
 				}
 
 				pev->speed = pev->maxspeed;
@@ -5591,14 +5590,12 @@ void Bot::RunTask(void)
 				m_destOrigin = destination;
 				m_moveSpeed = -pev->maxspeed;
 				m_moveToGoal = false;
-				printf("trigger");
 			}
 			else
 			{
 				destination = m_enemyOrigin;
 				m_moveSpeed = 0.0f;
 				m_moveToGoal = false;
-				printf("trigger2");
 			}
 		}
 		else if (!(m_states & STATE_SEEINGENEMY))

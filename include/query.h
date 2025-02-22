@@ -30,10 +30,10 @@ SOFTWARE.
 
 #include <core.h>
 
-#if defined(__linux__) && !defined(_GNU_SOURCE)
+#if (defined(__linux__) || defined(__linux) || defined(__gnu_linux__)) && !defined(_GNU_SOURCE)
 # define _GNU_SOURCE 1
 #endif
-#if defined(__linux__) && !defined(_DEFAULT_SOURCE)
+#if (defined(__linux__) || defined(__linux) || defined(__gnu_linux__)) && !defined(_DEFAULT_SOURCE)
 # define _DEFAULT_SOURCE 1
 #endif
 

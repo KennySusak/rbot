@@ -1114,8 +1114,6 @@ void Bot::CombatFight(void)
 				{
 					float distancer = (myPos - enemyPos).GetLength();
 
-					// printf("NORMAL (TACTICAL): %.2f \n", distancer);
-
 					if (distancer < 60.0f)
 					{
 						// Slightly chance to still use IN_ATTACK in close range
@@ -1135,8 +1133,6 @@ void Bot::CombatFight(void)
 				{
 					float distancer = (myPos - enemyPos).GetLength();
 
-					// printf("ONLY LEFT CLICK: %.2f \n", distancer);
-
                     if (distancer < 150.0f) {
 						pev->button |= IN_ATTACK;
 					}
@@ -1146,8 +1142,6 @@ void Bot::CombatFight(void)
 				case 3: // Only Right Click
 				{
 					float distancer = (myPos - enemyPos).GetLength();
-
-					// printf("ONLY RIGHT CLICK: %.2f \n", distancer);
 
                     if (distancer < 150.0f) {
 						pev->button |= IN_ATTACK2;

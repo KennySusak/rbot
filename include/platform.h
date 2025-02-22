@@ -26,7 +26,7 @@
 #define PLATFORM_INCLUDED
 
 // detects the build platform
-#if defined (__linux__) || defined (__debian__) || defined (__linux) || (__x86_64__) || defined (__amd64__)
+#if defined (__linux__) || defined (__debian__) || defined(__gnu_linux__) || defined (__linux) || (__x86_64__) || defined (__amd64__)
 #define PLATFORM_LINUX
 #elif defined (_WIN32)
 #define PLATFORM_WIN32
