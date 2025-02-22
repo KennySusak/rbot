@@ -5,7 +5,7 @@
 RBOT is based on eBot 1.07 and is primarily designed for zombie mod gamemodes. It supports Linux & Windows.
 
 <a href="https://discord.com/invite/pzng6JdA57" target="_blank">
-  <img src="https://img.shields.io/badge/Join%20Discord-Invite-blue?style=for-the-badge&logo=discord" alt="Join Discord" />
+  <img src="https://img.shields.io/badge/Join%20Discord-Invite-blue?style=for-the-badge&logo=discord" alt="Join Discord" height="30px"/>
 </a>
 
 # Commands
