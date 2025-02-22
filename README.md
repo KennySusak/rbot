@@ -1,4 +1,4 @@
-# CS 1.6 - RBOT [![Version](https://img.shields.io/badge/version-v1.0-blue)](https://github.com/KennySusak/rbot/releases)
+# CS 1.6 - RBOT [![Version](https://img.shields.io/badge/version-v1.0-orange)](https://github.com/KennySusak/rbot/releases)
 
 [![Downloads](https://img.shields.io/github/downloads/KennySusak/rbot/total?label=Downloads)](https://github.com/KennySusak/rbot/releases)&nbsp;&nbsp;&nbsp;&nbsp;[![Open Issues](https://img.shields.io/github/issues/KennySusak/rbot?label=Open%20Issues)](https://github.com/KennySusak/rbot/issues)&nbsp;&nbsp;&nbsp;&nbsp;[![Closed Issues](https://img.shields.io/github/issues-closed/KennySusak/rbot?label=Closed%20Issues)](https://github.com/KennySusak/rbot/issues)
 
