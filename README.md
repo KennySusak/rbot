@@ -8,26 +8,34 @@ RBOT is based on eBot 1.07 and is primarily designed for zombie mod gamemodes. I
   <img src="https://img.shields.io/badge/Join%20Discord-Invite-blue?style=for-the-badge&logo=discord" alt="Join Discord" height="30px"/>
 </a>
 
-# Commands
-- 📌 [**Commands List**](commands.md) – Full list of RBOT commands and settings.
+---
+
+## Requirements & Installation
+
+**Windows:**
+- [Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist)
+- [MetaMod](https://www.amxmodx.org/release/metamod-1.21.1-am.zip)
+
+**Linux:**
+- 32-bit Library `sudo apt-get install g++-multilib lib32stdc++6`
+- [MetaMod](https://www.amxmodx.org/release/metamod-1.21.1-am.zip)
 
 ---
 
-## Requirement & Installation
+## Supported
 
-1. **Download Metamod** and install it.
-2. **Download RBOT.**
-3. **Drag & Drop** the `rbot` folder inside your `addons` folder.
-4. Open `cstrike/addons/metamod/plugins.ini` and add the following line:
+| Operating System | Status                                   |
+|------------------|------------------------------------------|
+| **Windows 10**   | ⚠️ Untested                              |
+| **Windows 11**   | :white_check_mark: Yes                   |
+| **Ubuntu 24.04** | :white_check_mark: Yes                   |
+| **Debian 12**    | :white_check_mark: Yes                   |
+| **macOS**    | ❌ No                                        |
 
-   **Windows:**  
-   ```
-   win32 addons/rbot/rbot.dll
-   ```
-   
-   **Linux:**
-   ``` 
-   linux addons/rbot/rbot.so
-   ```
+*RBOT is compatible with ReHLDS.*
 
-6. Enjoy!
+---
+
+# Commands
+- 📌 [**Commands List**](commands.md) – Full list of RBOT commands and settings.
+
