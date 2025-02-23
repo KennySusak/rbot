@@ -10,7 +10,7 @@ RBOT is based on eBot 1.07 and is primarily designed for zombie mod gamemodes. I
 
 ---
 
-## Requirements & Installation
+## Requirements
 
 **Windows:**
 - [Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist)
