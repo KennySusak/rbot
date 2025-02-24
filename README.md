@@ -10,6 +10,18 @@ RBOT is based on eBot 1.07 and is primarily designed for zombie mod gamemodes. I
 
 ---
 
+## Requirements
+
+**Windows:**
+- [Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist)
+- [MetaMod](https://www.amxmodx.org/release/metamod-1.21.1-am.zip)
+
+**Linux:**
+- 32-bit Library `sudo apt-get install g++-multilib lib32stdc++6`
+- [MetaMod](https://www.amxmodx.org/release/metamod-1.21.1-am.zip)
+
+---
+
 ## Supported
 
 | Operating System | Status                                   |
@@ -22,18 +34,6 @@ RBOT is based on eBot 1.07 and is primarily designed for zombie mod gamemodes. I
 | **macOS**    | ❌ No                                        |
 
 *RBOT is compatible with ReHLDS.*
-
----
-
-## Requirements
-
-**Windows:**
-- [Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist)
-- [MetaMod](https://www.amxmodx.org/release/metamod-1.21.1-am.zip)
-
-**Linux:**
-- 32-bit Library `sudo apt-get install g++-multilib lib32stdc++6`
-- [MetaMod](https://www.amxmodx.org/release/metamod-1.21.1-am.zip)
 
 ---
 
