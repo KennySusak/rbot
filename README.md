@@ -16,6 +16,7 @@ RBOT is based on eBot 1.07 and is primarily designed for zombie mod gamemodes. I
 |------------------|------------------------------------------|
 | **Windows 10**   | ⚠️ Untested                              |
 | **Windows 11**   | :white_check_mark: Yes                   |
+| **Ubuntu 22.04** | :white_check_mark: Yes                   |
 | **Ubuntu 24.04** | :white_check_mark: Yes                   |
 | **Debian 12**    | :white_check_mark: Yes                   |
 | **macOS**    | ❌ No                                        |
